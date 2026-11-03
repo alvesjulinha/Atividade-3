@@ -18,6 +18,7 @@ a{
 /* Cabeçalho */
 
 .cabecalho{
+    /* Imagem de fundo */
     display: flex;
     justify-content: center;
     align-items: center;
