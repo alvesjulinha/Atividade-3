@@ -15,14 +15,20 @@ a{
     color: #fff;
 }
 
-/* Cabeçalho */
+/* Cabeçalhos */
 
 .cabecalho{
-    /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+}
+
+.cabecalho .cabecalho-index{
+    background-image: ;
 }
 
 .cabecalho h1{
@@ -91,7 +97,7 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px 10px;
-    margin: 15px ;
+    margin: 0px;
 }
 
 /* Itens do catálogo */
