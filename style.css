@@ -1,133 +1,133 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Corpo */
 
-body{
-    background-color: #b4a9a9;
+body {
+  background-color: #b4a9a9;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Cabeçalho */
 
-.cabecalho{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
 
-.cabecalho h1{
-    font-size: 50px;
-    color: #fff;
+.cabecalho h1 {
+  font-size: 50px;
+  color: #fff;
 }
 
 /* Menu e lista expansível */
 
-.menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
-.menu nav{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.menu nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.menu-generos{
-    position: relative;
+.menu-generos {
+  position: relative;
 }
 
-.menu-generos summary{
-    cursor: pointer;
-    list-style: none;
+.menu-generos summary {
+  cursor: pointer;
+  list-style: none;
 }
 
-.menu-generos summary::-webkit-details-marker{
-    display: none;
+.menu-generos summary::-webkit-details-marker {
+  display: none;
 }
 
-.menu-generos ul{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #251010;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    list-style: none;
-    min-width: 15px;
+.menu-generos ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #251010;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  min-width: 15px;
 }
 
 /* Introdução */
 
-.introducao{
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
+.introducao {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
 }
 
 /* Catálogo */
 
-.catalogo{
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
+.catalogo {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
 }
 
-#grade-generos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px 10px;
-    margin: 15px ;
+#grade-generos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 10px;
+  margin: 15px;
 }
 
 /* Itens do catálogo */
 
-.item-catalogo{
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 15px;
-    text-align: center;
+.item-catalogo {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
 }
 
-#item-terror{
-    background-color: gray;
-    border: solid 2px #e34350;
+#item-terror {
+  background-color: gray;
+  border: solid 2px #e34350;
 }
 
-#item-comedia{
-    background-color: grey;
-    border: solid 2px #f2c14e;
+#item-comedia {
+  background-color: grey;
+  border: solid 2px #f2c14e;
 }
 
-#item-drama{
-    background-color: gray;
-    border: solid 2px #b58ae0;
+#item-drama {
+  background-color: gray;
+  border: solid 2px #b58ae0;
 }
 
-#item-acao{
-    background-color: gray;
-    border: solid 2px #f07835;
+#item-acao {
+  background-color: gray;
+  border: solid 2px #f07835;
 }
 
-#item-romance{
-    background-color: gray;
-    border: solid 2px #e77fa6;
+#item-romance {
+  background-color: gray;
+  border: solid 2px #e77fa6;
 }
 
-#item-ficcao{
-    background-color: gray;
-    border: solid 2px #40bce8;  
+#item-ficcao {
+  background-color: gray;
+  border: solid 2px #40bce8;
 }
