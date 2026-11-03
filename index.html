@@ -1,29 +1,56 @@
 <!DOCTYPE html>
-
-<!-- Julia Alves Barroso -->
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CineAtlas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabeçalho">
-
+    <header class="cabecalho">
+        <!-- Vai ter uma imagem de fundo aqui -->
+        <h1>CineAtlas</h1>
     </header>
-    <div class="menu">
+
+    <!-- Menu de navegação -->
+    <div class="menu">  
         <nav>
+            <a href="index.html">Início</a>
+
+            <details class="menu-generos">
+                <summary>Gêneros</summary>
+                <ul class="lista-generos">
+                    <li><a href="terror.html">Terror</a></li>                    
+                    <li><a href="comedia.html">Comédia</a></li>
+                    <li><a href="drama.html">Drama</a></li>
+                    <li><a href="acao.html">Ação</a></li>
+                    <li><a href="romance.html">Romance</a></li>
+                    <li><a href="ficcao.html">Ficção Científica</a></li>
+                </ul>
+            </details>
 
         </nav>
     </div>
 
-    <section class="introducao"></section>
-    <!-- Possível tema: gêneros de filmes
-        Procurar como fazer animação de fita de filmes
-        Organizar seções por subgênero    -->
+    <!-- Seção de introdução -->
+    <section class="introducao">
+        <h2>Bem-vindo ao CineAtlas!</h2>
+        <p>Descubra os melhores filmes de cada gênero.</p>
+    </section>
 
-        <h1>Subgêneros do Terror</h1>
-    
+<!-- Catálogo -->
+    <section class="catalogo">
+
+        <h2>Explore os gêneros</h2>
+
+        <div id="grade-generos">
+            <div class="item-catalogo" id="item-terror">Terror</div>
+            <div class="item-catalogo" id="item-comedia">Comédia</div>
+            <div class="item-catalogo" id="item-drama">Drama</div>
+            <div class="item-catalogo" id="item-acao">Ação</div>
+            <div class="item-catalogo" id="item-romance">Romance</div>
+            <div class="item-catalogo" id="item-ficcao">Ficção Científica</div>
+        </div>
+    </section>
 </body>
 </html>
