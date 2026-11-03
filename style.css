@@ -15,18 +15,25 @@ a {
   color: #fff;
 }
 
-/* Cabeçalho */
+/* Cabeçalhos */
 
-.cabecalho {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
+.cabecalho{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
 
-.cabecalho h1 {
-  font-size: 50px;
-  color: #fff;
+.cabecalho .cabecalho-index{
+    background-image: ;
+}
+
+.cabecalho h1{
+    font-size: 50px;
+    color: #fff;
 }
 
 /* Menu e lista expansível */
@@ -86,11 +93,11 @@ a {
   margin: 20px;
 }
 
-#grade-generos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px 10px;
-  margin: 15px;
+#grade-generos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+    margin: 0px;
 }
 
 /* Itens do catálogo */
