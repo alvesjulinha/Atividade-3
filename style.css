@@ -489,8 +489,8 @@ footer {
 
 /* Cards */
 
-.filmes-grade > div[class*=filme-item-] {
-     background-color: #30272a;
+.filmes-grade>div[class*=filme-item-] {
+    background-color: #30272a;
     border: 2px solid var(--cor-genero);
     border-radius: 12px;
     padding: 15px;
@@ -504,18 +504,23 @@ footer {
 .filme-item-terror {
     --cor-genero: #e34350;
 }
+
 .filme-item-comedia {
     --cor-genero: #f2c14e;
 }
+
 .filme-item-drama {
     --cor-genero: #b58ae0;
 }
+
 .filme-item-romance {
     --cor-genero: #e77fa6;
 }
+
 .filme-item-ficcao {
     --cor-genero: #40bce8;
 }
+
 .filme-item-acao {
     --cor-genero: #f07835;
 }
@@ -552,7 +557,7 @@ footer {
 /* Tipos */
 
 .tipo {
-    color:#fff;
+    color: #fff;
     background-color: var(--cor-genero);
     font-family: "Lato", sans-serif;
     font-size: 15px;
@@ -612,4 +617,77 @@ footer {
 .cabecalho h1 {
     position: relative;
     z-index: 1;
+}
+
+/* Responsividade */
+
+/* Tablests */
+@media (max-width: 1024px) {
+
+    #grade-generos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .subgeneros-grade {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .filmes-grade {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cabecalho {
+        min-height: 280px;
+        padding: 30px;
+    }
+
+}
+
+
+/*  Celulares */
+@media (max-width: 600px) {
+
+    #grade-generos,
+    .subgeneros-grade,
+    .filmes-grade {
+        grid-template-columns: 1fr;
+    }
+
+    .cabecalho {
+        min-height: 220px;
+        padding: 20px 45px;
+    }
+
+    .cabecalho h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .menu nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .introducao,
+    .catalogo,
+    .origem {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .item-catalogo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .filmes-grade {
+        gap: 20px;
+    }
+
+    .filmes-grade>div:nth-child(4),
+    .filmes-grade>div:nth-child(5) {
+        grid-column: auto;
+        margin-left: 0;
+    }
+
 }
